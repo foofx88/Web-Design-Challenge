@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Humidity</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="main-back">
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="branding" href="landing-page.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown topnav-right">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="visualizaton-page1.html">Max Temperature</a>
+            <a class="dropdown-item" href="visualizaton-page2.html">Humidity</a>
+            <a class="dropdown-item" href="visualizaton-page3.html">Cloudiness</a>
+            <a class="dropdown-item" href="visualizaton-page4.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparison-page.html">Comparison <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data-page.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main class="container">
+    <section id="main-intro">
+      <h2 id="topic-name">Latitude vs. Humidity</h2>
+      <hr>
+    <section id = "topic-images">
+          <img src="Resources\assets\images\Fig2.png" class="d-block w-100" alt="Max Temperature">
+        </section>
+      <p>From the observation, Latitude have little to no influence over the humidity of countries in both northern
+        and southern hemisphere. Most of the cities tend to crowd towards a higher humidity percentage regardless
+        of it's coordinates. There are rare cases where some cities have 0% humidity which would be perfect for those with allergies.
+         </p>
+  
+      </section>
+  <aside id="img-preview">
+    <h3>Visualizations</h3>
+    <hr>
+    <img src="Resources\assets\images\Fig2.png" class="selected_visuals" alt="Humidity">
+    <img src="Resources\assets\images\Fig1.png" class="visuals" alt="Max Temperature">
+    <img src="Resources\assets\images\Fig3.png" class="visuals" alt="Cloudiness">
+    <img src="Resources\assets\images\Fig4.png" class="visuals" alt="Wind Speed">
+  </aside>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

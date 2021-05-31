@@ -1,0 +1,48 @@
+Landing page Text
+
+Summary: Latitude vs. X
+
+The purpose of this project is to analyze how weather changes as you get closer
+to the equator. To acomplish this analysis, we first pulled data from the OpenWeatherMap API
+to assemble a dataset on over 500 cities.
+
+After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+Factors we looked at included: Temperature, Cloudiness, Wind Speed, and Humidity.
+This site also provides the source data and visualizations created as part of the analysis,
+as well as explanations and descriptions of any trends and correlations witnessed.
+
+
+Comparison page Text
+
+Comparison: Latitude vs X
+
+Click any plot to get an in-depth analysis
+
+vs. Max Temperature
+
+As expected, the weather becomes significantly warmer as one approaches the equator ( 0 Degree Latitude).
+More interestingly, however, is the fact that the southern hemisphere tends to be warmer this
+time of year than the northern hemisphere. This may be due to the tilt of the Earth at the time 
+of the year this data was gathered.
+
+vs. Cloudiness
+The data points presented are almost in uniform where most of the plots are inline with the x-axis and are congregated 
+on both the top and bottom of the scatter plot. We can observed that the city latitude
+are not affected greatly by it's latitude on Earth. Hence, a Weak relationship is observed with latitudes and cloudiness.
+
+vs. Wind Speed
+On the Latitude vs. Wind Speed graph, data points are gravitated below 15 MPH on most Latitude degrees.
+It seems that a city's latitude does not greatly affect the the wind speed of a city. Most are breezy and comfortable
+below 15 MPH with some extremes are observed passed Latitude - 40 with wind speeds above 25 MPH. Caution to these cities
+when organising kite flying competition as there would be many kites being blown away by the strong breeze.
+
+vs. Humidity
+From the observation, Latitude have little to no influence over the humidity of countries in both northern
+and southern hemisphere. Most of the cities tend to crowd towards a higher humidity percentage regardless
+of it's coordinates. There are rare cases where some cities have 0% humidity which would be perfect for those with allergies.
+
+Data page Text
+
+The following table inlcudes all of the data used for plotting during this project.
+
+
