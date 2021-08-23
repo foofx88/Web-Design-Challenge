@@ -1,2 +1,2 @@
-<h3>web Design Demo - For Data Visualisation</h3>
+<h3>Web Design Demo - For Data Visualisation</h3>
 <hr>
